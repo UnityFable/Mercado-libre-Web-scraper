@@ -1,0 +1,33 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon dist/server.js",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "envalid": "^7.3.1",
+    "express": "^4.18.1",
+    "https": "^1.0.0",
+    "morgan": "^1.10.0",
+    "mssql": "^9.0.1",
+    "puppeteer": "^18.0.4",
+    "scrape-it": "^5.3.2",
+    "tedious": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/mssql": "^8.1.1",
+    "codelyzer": "^6.0.2",
+    "tslint": "^6.1.3"
+  }
+}
